@@ -1,0 +1,236 @@
+<html>
+
+<head>
+  <title>Your Resume is Ready!</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+  <link href="assets/resume.css" rel="stylesheet">
+  <style>
+    .avatar-img {
+      width: 100px;
+    }
+
+    .skill-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .skill-name {
+      margin-right: 10px;
+    }
+
+    .skill-level {
+      width: 150px;
+      height: 10px;
+      background-color: #ccc;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .skill-level .level-bar {
+      height: 100%;
+      background-color: #d900ff;
+    }
+
+    .education-item {
+      margin-bottom: 20px;
+    }
+
+    .education-title {
+      font-weight: bold;
+    }
+
+    .education-details {
+      margin-top: 10px;
+    }
+
+    .flex-group {
+      display: flex;
+    }
+
+    /* Languages section */
+    .language-list {
+      margin-top: 10px;
+    }
+
+    .language-item {
+      margin-bottom: 15px;
+    }
+
+    .language-name {
+      font-weight: bold;
+    }
+
+    .language-level {
+      height: 10px;
+      background-color: #eee;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .level-bar {
+      height: 100%;
+      background-color: #d900ff;
+    }
+
+    /* Reference section */
+    .reference-list {
+      margin-top: 20px;
+    }
+
+    .reference-item {
+      margin-bottom: 15px;
+    }
+
+    .reference-name {
+      font-weight: bold;
+    }
+
+    .relationship {
+      margin-top: 5px;
+      color: #666;
+    }
+
+    .reference-contact {
+      margin-top: 5px;
+    }
+
+    .reference-phone,
+    .reference-email {
+      margin-bottom: 3px;
+    }
+
+    .reference-summary {
+      margin-top: 10px;
+    }
+
+    .profile-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .profile-item {
+      margin-bottom: 10px;
+    }
+
+    .profile-link {
+      display: inline-block;
+      margin-right: 10px;
+      color: #000;
+      text-decoration: none;
+    }
+
+    .profile-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+</head>
+
+
+<body>
+
+  <div class="resmue-container">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#" onclick="print()">Print</a>
+    </nav>
+    <div style="display: flex;">
+      <aside>
+        <section id="personal_information" class="text-center personal-information" style="padding:0">
+          <img class="avatar-img" src="" alt="">
+          <h2 class="name" style="margin-bottom: 5px"></h2>
+          <small class="headline text-muted"></small>
+          <p class="text-muted">
+            <small>
+              <b>Phone:</b> <span class="phone"></span>
+            </small>
+          </p>
+          <p class="text-muted">
+            <small>
+              <b>Email:</b> <span class="email"></span>
+            </small>
+          </p>
+          <p class="text-muted">
+            <small>
+              <b>Location:</b> <span class="location"></span>
+            </small>
+          </p>
+        </section>
+
+        <section id="profiles">
+          <h3 class="line-title center">Profiles</h3>
+          <ul class="profile-list">
+            <!-- Profile Links will be dynamically added here -->
+          </ul>
+        </section>
+
+        <section id="aboutme">
+          <h3 class="line-title center">About Me</h3>
+          <p class="read about-me">
+          </p>
+        </section>
+        <section id="skills">
+          <h3 class="line-title center">Skills</h3>
+          <div class="skill-list"></div>
+        </section>
+     
+        <section id="certification">
+          <h3 class="line-title center">Certificates</h3>
+          <div id="certificates"></div>
+        </section>
+
+        <section id="languages">
+          <h3 class="line-title">Languages</h3>
+          <div class="language-list"></div>
+        </section>
+
+
+      </aside>
+      <main>
+        <section id="objective">
+          <h3 class="line-title">Objective</h3>
+          <article class="flex-group">
+            <div class="full">
+              <p class="read objective"></p>
+            </div>
+          </article>
+        </section>
+
+        <section id="experience" >
+          <h3 class="line-title">Experience </h3>
+          <div class="experience-container"></div>
+        </section>
+
+        <section id="education">
+          <h3 class="line-title ">Education</h3>
+          <div class="education-container"></div>
+        </section>
+
+        <section id="projects">
+          <h3 class="line-title">Project Completed</h3>
+        </section>
+
+
+        <section id="reference">
+          <h3 class="line-title">Reference</h3>
+          <div class="reference-list">
+            <!-- Reference Item will be dynamically added here -->
+          </div>
+        </section>
+
+
+      </main>
+    </div>
+
+  </div>
+  <script src="assets/index.js"></script>
+  <script>
+    populateResumeData()
+  </script>
+</body>
+
+</html>

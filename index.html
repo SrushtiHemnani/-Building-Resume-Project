@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+    <title>Create your Professional Resume</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 62.5%;
+            --main-color: #dcdde1;
+        }
+
+        body {
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            background-image: linear-gradient(80deg, #ffcc0099, #e89b3d60);
+            font-family: "Poppins", sans-serif;
+        }
+
+        @keyframes animate {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 1;
+                border-radius: 0;
+            }
+
+            100% {
+                transform: translateY(-1000px) rotate(720deg);
+                opacity: 0;
+                border-radius: 50%;
+            }
+        }
+
+        .background {
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            margin: 0;
+            padding: 0;
+            background: #ffffff;
+            overflow: hidden;
+        }
+
+        .background li {
+            position: absolute;
+            display: block;
+            list-style: none;
+            width: 20px;
+            height: 20px;
+            background: #d800ff69;
+            animation: animate 13s linear infinite;
+        }
+
+
+
+
+        .background li:nth-child(0) {
+            left: 89%;
+            width: 109px;
+            height: 109px;
+            bottom: -109px;
+            animation-delay: 1s;
+        }
+
+        .background li:nth-child(1) {
+            left: 51%;
+            width: 139px;
+            height: 139px;
+            bottom: -139px;
+            animation-delay: 4s;
+        }
+
+        .background li:nth-child(2) {
+            left: 33%;
+            width: 165px;
+            height: 165px;
+            bottom: -165px;
+            animation-delay: 2s;
+        }
+
+        .background li:nth-child(3) {
+            left: 7%;
+            width: 192px;
+            height: 192px;
+            bottom: -192px;
+            animation-delay: 4s;
+        }
+
+        .background li:nth-child(4) {
+            left: 29%;
+            width: 189px;
+            height: 189px;
+            bottom: -189px;
+            animation-delay: 4s;
+        }
+
+        .background li:nth-child(5) {
+            left: 49%;
+            width: 183px;
+            height: 183px;
+            bottom: -183px;
+            animation-delay: 20s;
+        }
+
+        .background li:nth-child(6) {
+            left: 36%;
+            width: 121px;
+            height: 121px;
+            bottom: -121px;
+            animation-delay: 20s;
+        }
+
+        .background li:nth-child(7) {
+            left: 89%;
+            width: 134px;
+            height: 134px;
+            bottom: -134px;
+            animation-delay: 17s;
+        }
+
+        .background li:nth-child(8) {
+            left: 45%;
+            width: 178px;
+            height: 178px;
+            bottom: -178px;
+            animation-delay: 26s;
+        }
+
+        .background li:nth-child(9) {
+            left: 52%;
+            width: 140px;
+            height: 140px;
+            bottom: -140px;
+            animation-delay: 34s;
+        }
+
+        .background li:nth-child(10) {
+            left: 71%;
+            width: 139px;
+            height: 139px;
+            bottom: -139px;
+            animation-delay: 21s;
+        }
+
+        .background li:nth-child(11) {
+            left: 42%;
+            width: 134px;
+            height: 134px;
+            bottom: -134px;
+            animation-delay: 38s;
+        }
+
+        .background li:nth-child(12) {
+            left: 15%;
+            width: 127px;
+            height: 127px;
+            bottom: -127px;
+            animation-delay: 45s;
+        }
+
+        .background li:nth-child(13) {
+            left: 82%;
+            width: 149px;
+            height: 149px;
+            bottom: -149px;
+            animation-delay: 26s;
+        }
+
+        .background li:nth-child(14) {
+            left: 21%;
+            width: 158px;
+            height: 158px;
+            bottom: -158px;
+            animation-delay: 36s;
+        }
+
+        .background li:nth-child(15) {
+            left: 0%;
+            width: 175px;
+            height: 175px;
+            bottom: -175px;
+            animation-delay: 55s;
+        }
+
+        .background li:nth-child(16) {
+            left: 83%;
+            width: 141px;
+            height: 141px;
+            bottom: -141px;
+            animation-delay: 79s;
+        }
+
+        .background li:nth-child(17) {
+            left: 69%;
+            width: 101px;
+            height: 101px;
+            bottom: -101px;
+            animation-delay: 64s;
+        }
+
+        .background li:nth-child(18) {
+            left: 13%;
+            width: 145px;
+            height: 145px;
+            bottom: -145px;
+            animation-delay: 61s;
+        }
+
+        .background li:nth-child(19) {
+            left: 42%;
+            width: 100px;
+            height: 100px;
+            bottom: -100px;
+            animation-delay: 13s;
+        }
+
+        .background li:nth-child(20) {
+            left: 0%;
+            width: 100px;
+            height: 100px;
+            bottom: -100px;
+            animation-delay: 38s;
+        }
+
+        .background li:nth-child(21) {
+            left: 10%;
+            width: 159px;
+            height: 159px;
+            bottom: -159px;
+            animation-delay: 46s;
+        }
+
+        .background li:nth-child(22) {
+            left: 19%;
+            width: 114px;
+            height: 114px;
+            bottom: -114px;
+            animation-delay: 95s;
+        }
+
+        .background li:nth-child(23) {
+            left: 41%;
+            width: 150px;
+            height: 150px;
+            bottom: -150px;
+            animation-delay: 62s;
+        }
+
+        .background li:nth-child(24) {
+            left: 34%;
+            width: 148px;
+            height: 148px;
+            bottom: -148px;
+            animation-delay: 71s;
+        }
+
+        .background li:nth-child(25) {
+            left: 25%;
+            width: 112px;
+            height: 112px;
+            bottom: -112px;
+            animation-delay: 117s;
+        }
+
+        .background li:nth-child(26) {
+            left: 34%;
+            width: 141px;
+            height: 141px;
+            bottom: -141px;
+            animation-delay: 34s;
+        }
+
+        .background li:nth-child(27) {
+            left: 70%;
+            width: 133px;
+            height: 133px;
+            bottom: -133px;
+            animation-delay: 109s;
+        }
+
+        .background li:nth-child(28) {
+            left: 86%;
+            width: 123px;
+            height: 123px;
+            bottom: -123px;
+            animation-delay: 4s;
+        }
+
+        .background li:nth-child(29) {
+            left: 26%;
+            width: 107px;
+            height: 107px;
+            bottom: -107px;
+            animation-delay: 133s;
+        }
+
+        .background li:nth-child(30) {
+            left: 3%;
+            width: 158px;
+            height: 158px;
+            bottom: -158px;
+            animation-delay: 2s;
+        }
+
+        .background li:nth-child(31) {
+            left: 69%;
+            width: 103px;
+            height: 103px;
+            bottom: -103px;
+            animation-delay: 43s;
+        }
+
+        .background li:nth-child(32) {
+            left: 45%;
+            width: 178px;
+            height: 178px;
+            bottom: -178px;
+            animation-delay: 123s;
+        }
+
+        .background li:nth-child(33) {
+            left: 69%;
+            width: 103px;
+            height: 103px;
+            bottom: -103px;
+            animation-delay: 79s;
+        }
+
+        .background li:nth-child(34) {
+            left: 81%;
+            width: 141px;
+            height: 141px;
+            bottom: -141px;
+            animation-delay: 62s;
+        }
+
+        .background li:nth-child(35) {
+            left: 83%;
+            width: 154px;
+            height: 154px;
+            bottom: -154px;
+            animation-delay: 17s;
+        }
+
+        .background li:nth-child(36) {
+            left: 75%;
+            width: 178px;
+            height: 178px;
+            bottom: -178px;
+            animation-delay: 88s;
+        }
+
+        .background li:nth-child(37) {
+            left: 22%;
+            width: 106px;
+            height: 106px;
+            bottom: -106px;
+            animation-delay: 87s;
+        }
+
+        .background li:nth-child(38) {
+            left: 4%;
+            width: 149px;
+            height: 149px;
+            bottom: -149px;
+            animation-delay: 100s;
+        }
+
+        .background li:nth-child(39) {
+            left: 6%;
+            width: 167px;
+            height: 167px;
+            bottom: -167px;
+            animation-delay: 178s;
+        }
+
+        .background li:nth-child(40) {
+            left: 44%;
+            width: 130px;
+            height: 130px;
+            bottom: -130px;
+            animation-delay: 123s;
+        }
+
+        .background li:nth-child(41) {
+            left: 52%;
+            width: 162px;
+            height: 162px;
+            bottom: -162px;
+            animation-delay: 181s;
+        }
+
+        .background li:nth-child(42) {
+            left: 89%;
+            width: 149px;
+            height: 149px;
+            bottom: -149px;
+            animation-delay: 43s;
+        }
+
+        .background li:nth-child(43) {
+            left: 78%;
+            width: 172px;
+            height: 172px;
+            bottom: -172px;
+            animation-delay: 28s;
+        }
+
+        .background li:nth-child(44) {
+            left: 89%;
+            width: 117px;
+            height: 117px;
+            bottom: -117px;
+            animation-delay: 155s;
+        }
+
+        .background li:nth-child(45) {
+            left: 87%;
+            width: 114px;
+            height: 114px;
+            bottom: -114px;
+            animation-delay: 196s;
+        }
+
+        .background li:nth-child(46) {
+            left: 26%;
+            width: 150px;
+            height: 150px;
+            bottom: -150px;
+            animation-delay: 5s;
+        }
+
+        .background li:nth-child(47) {
+            left: 17%;
+            width: 119px;
+            height: 119px;
+            bottom: -119px;
+            animation-delay: 170s;
+        }
+
+        .background li:nth-child(48) {
+            left: 27%;
+            width: 178px;
+            height: 178px;
+            bottom: -178px;
+            animation-delay: 76s;
+        }
+
+        .background li:nth-child(49) {
+            left: 80%;
+            width: 127px;
+            height: 127px;
+            bottom: -127px;
+            animation-delay: 244s;
+        }
+
+        .card-header {
+            background: #d800ff69;
+
+
+        }
+
+        .card-header h1 {
+            text-align: center;
+            color: #3d3d3d;
+            font-family: 'Noto Sans Thai', sans-serif;
+            font-family: 'Pacifico', cursive;
+        }
+
+        .button-group {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .button-group button {
+            margin-right: 10px;
+        }
+
+        .info {
+            display: inline-flex;
+            font-size: 28px;
+
+        }
+
+        .info h3 {
+            color: #3d3d3d;
+        }
+
+        .info i {
+            color: #3d3d3d;
+        }
+
+        .input-group-text {
+            height: 35px;
+        }
+
+        .form-control {
+            height: 35px;
+        }
+
+        .add-item {
+            background: white;
+            color: #d900ff;
+            border: 1px solid #d900ff !important;
+        }
+
+        .add-item:hover {
+            background: #d900ff;
+            color: white;
+            border: 1px solid white;
+        }
+
+        .remove-item {
+            background: white;
+            color: red;
+            border: 1px solid red !important;
+        }
+
+        .remove-item:hover {
+            background: red;
+            color: white;
+            border: 1px solid white;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@200;300&family=Pacifico&display=swap');
+
+        .card-blur {
+
+            box-shadow: 0 8px 32px 0 #d900ffa5;
+            backdrop-filter: blur(29px);
+            -webkit-backdrop-filter: blur(3px);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+
+
+
+            background: #faf6fb;
+
+        }
+
+        hr {
+            margin: 1rem 0;
+            color: inherit;
+            background-color: #d900ffa5;
+            opacity: 0.25;
+        }
+
+        .btn-submit {
+            width: 15%;
+            height: 35px;
+            background: #d900ff;
+            color: white;
+            border: 1px solid white !important;
+            border-radius: 15px;
+            font-size: 16px;
+
+        }
+
+        .btn-submit:hover {
+
+            background: #fcfbfd;
+            color: #d900ff;
+            border: 1px solid #d900ff !important;
+
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="background">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <div class="container">
+        <div class="card card-blur">
+            <div class="card-header">
+                <h1>Create your Professional Resume</h1>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="row p-5">
+                        <!-- personal info start  -->
+                        <div class="col-md-12 mb-3 info">
+                            <i class="fa-regular fa-user"></i>
+                            <h3 class="ml-3 ">Personal Information</h3>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">First and last name*</span>
+                                </div>
+                                <input type="text" name="firstname" aria-label="First name" class="form-control"
+                                    placeholder="Enter your first name" />
+                                <input type="text" aria-label="Last name" class="form-control" name="lastname"
+                                    placeholder=" Enter your last name" required />
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" name="image"
+                                        id="inputGroup-sizing-default">Image*</span>
+                                </div>
+                                <input type="file" placeholder="Enter your photo" class="form-control"
+                                    name="profile_image" aria-label="Sizing example input"
+                                    aria-describedby="inputGroup-sizing-default" required />
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="inputGroup-sizing-default">Email*</span>
+                                </div>
+                                <input type="text" placeholder="Enter your email" class="form-control" name="email"
+                                    aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
+                                    required />
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="inputGroup-sizing-default">Date Of Birth*</span>
+                                </div>
+                                <input type="date" class="form-control" placeholder="Enter your DOB" name="dob"
+                                    aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
+                                    required />
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="inputGroup-sizing-default">Phone*</span>
+                                </div>
+                                <input type="tel" class="form-control" placeholder="Enter your phone number"
+                                    name="phonenumber" aria-label="Sizing example input"
+                                    aria-describedby="inputGroup-sizing-default" required />
+                            </div>
+                        </div>
+                        <div class="col-md-9 mb-3">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="inputGroup-sizing-default">About Me*</span>
+                                </div>
+                                <textarea rows="2" class="form-control" placeholder="" name="aboutme"
+                                    aria-label="With textarea"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-9 mb-3">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Objective*</span>
+                                </div>
+                                <textarea rows="2" class="form-control" placeholder="Enter your objective" required
+                                    name="objective" aria-label="With textarea"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <hr>
+                        </div>
+                        <!-- personal info end  -->
+
+
+                        <!-- location info start  -->
+                        <div class="col-md-12 mb-3 info">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3 class="ml-3 ">Location</h3>
+                        </div>
+                        <div class="col-md-6  mb-3">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Address*</span>
+                                </div>
+                                <textarea rows="1" class="form-control" placeholder="Enter your address" name="address"
+                                    aria-label="With textarea" required></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="inputGroup-sizing-default">City*</span>
+                                </div>
+                                <input type="text" placeholder="Enter your city" class="form-control" name="city"
+                                    aria-label="Sizing example input" required
+                                    aria-describedby="inputGroup-sizing-default" />
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="inputGroup-sizing-default">Country*</span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Enter your country" name="country"
+                                    aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
+                                    required />
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="inputGroup-sizing-default">Postal Code*</span>
+                                </div>
+                                <input type="number" class="form-control" placeholder="Enter your postal-code"
+                                    aria-label="Sizing example input" name="postalcode"
+                                    aria-describedby="inputGroup-sizing-default" required />
+                            </div>
+                        </div>
+                        <div class="col">
+                            <hr>
+                        </div>
+                        <!-- location info end  -->
+
+
+                        <!-- profile box start  -->
+                        <div class="col-md-12 mb-3 info">
+                            <i class="fas fa-link"></i>
+                            <h3 class="ml-3 ">Profiles</h3>
+                        </div>
+                        <div class="clone-box  mb-3  col-md-12">
+
+                            <div class="clone-item  mb-3">
+                                <div class="input-group mb-2">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">Links*</span>
+                                    </div>
+                                    <input type="text" name="profiles.name" aria-label="profile name"
+                                        class="form-control" placeholder="Enter your social name" />
+                                    <input type="url" aria-label="profile link" class="form-control"
+                                        name="profiles.link" placeholder="Enter your social link" required />
+                                </div>
+                            </div>
+
+                            <button class=" btn btn-primary  add-item"><i class="fas fa-plus"></i></button>
+                            <button class="btn btn-danger   remove-item"><i class="fas fa-minus"></i></button>
+                        </div>
+                        <div class="col">
+                            <hr>
+                        </div>
+                        <!-- profile box end  -->
+
+
+                        <!-- Education infomation div start  -->
+                        <div class="col-md-12 mb-3 info">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h3 class="ml-3 ">Education Qualifications</h3>
+                        </div>
+                        <div class="clone-box  col-12 mb-3">
+                            <div class="clone-item mb-2 row">
+                                <div class="col-md-6 mb-3 ">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"
+                                                id="inputGroup-sizing-default">Institution*</span>
+
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Enter your university name"
+                                            aria-label="Sizing example input" name="education.university_name"
+                                            aria-describedby="inputGroup-sizing-default" required />
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6 mb-3 ">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-default">Degree*</span>
+
+                                        </div>
+                                        <input type="text" class="form-control" name="education.degree"
+                                            placeholder="Enter your degree" value="" required />
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3 ">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-default">Grades*</span>
+
+                                        </div>
+                                        <input type="text" class="form-control" name="education.grades"
+                                            placeholder="Enter your grades" value="" required />
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3 ">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-default">Area of
+                                                feild*</span>
+
+                                        </div>
+                                        <input type="text" class="form-control" name="education.area_of_feild"
+                                            placeholder="Enter your area of feild" value="" required />
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3 ">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-default">Start
+                                                Date*</span>
+
+                                        </div>
+                                        <input type="date" class="form-control" name="education.start_date"
+                                            placeholder="Enter your start date" value="" required />
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3 ">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-default">End
+                                                Date</span>
+
+                                        </div>
+                                        <input type="date" class="form-control" name="education.end_date"
+                                            placeholder="Enter your end date" value="" />
+                                    </div>
+                                </div>
+                                <div class="col-md-9 mb-3">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">Summary</span>
+                                        </div>
+                                        <textarea rows="2" class="form-control" placeholder="Enter your summary"
+                                            name="education.summary" aria-label="With textarea"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary   add-item"><i class="fas fa-plus"></i></button>
+                            <button class="btn btn-danger  remove-item"><i class="fas fa-minus"></i></button>
+                        </div>
+                        <div class="col">
+                            <hr>
+                        </div>
+                        <!-- Education infomation div end  -->
+
+
+                        <!-- work experince div start  -->
+                        <div class="col-md-12 mb-3 info">
+                            <i class="fas fa-briefcase"></i>
+                            <h3 class="ml-3 ">Work Experience</h3>
+                        </div>
+                        <hr />
+                        <div class="clone-box  col-12  mb-3">
+                            <div class="clone-item row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+                                        </div>
+                                        <input type="text" class="form-control" name="work_experience.name"
+                                            placeholder="Enter your company name" aria-label="Sizing example input"
+                                            aria-describedby="inputGroup-sizing-default" />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"
+                                                id="inputGroup-sizing-default">Position</span>
+                                        </div>
+                                        <input type="text" class="form-control" name="work_experience.position"
+                                            placeholder="Enter your position" value="" />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-default">Start
+                                                Date</span>
+                                        </div>
+                                        <input type="date" class="form-control" name="work_experience.start_date"
+                                            placeholder="Enter your start date" value="" />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-default">End
+                                                Date</span>
+                                        </div>
+                                        <input type="date" class="form-control" name="work_experience.end_date"
+                                            placeholder="Enter your end date" value="" />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-9 mb-3">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">Summary</span>
+                                        </div>
+                                        <textarea rows="2" class="form-control" placeholder="Enter your summary"
+                                            name="work_experience.summary" aria-label="With textarea"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="btn btn-primary   add-item"><i class="fas fa-plus"></i></button>
+                            <button class="btn btn-danger  remove-item"><i class="fas fa-minus"></i></button>
+
+                        </div>
+                        <div class="col">
+                            <hr>
+                        </div>
+                        <!-- work experince div end  -->
+                        <!-- certification div start  -->
+                        <div class="col-md-12 mb-3 info">
+                            <i class="fas fa-certificate"></i>
+                            <h3 class="ml-3">Certifications</h3>
+                        </div>
+
+
+                        <div class="clone-box col-12  mb-3">
+                            <div class="row clone-item mb-3">
+                                <div class="col-md-6 mb-3">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+                                        </div>
+                                        <input type="text" class="form-control" name="certification.name"
+                                            placeholder="Enter certicate name" value="" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-default">Issuer</span>
+                                        </div>
+                                        <input type="text" class="form-control" name="certification.issuer"
+                                            placeholder="issuer name" value="" />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-default">
+                                                Date</span>
+                                        </div>
+                                        <input type="date" class="form-control" name="certification.date"
+                                            placeholder="Enter your start date" value="" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-default">Links
+                                            </span>
+                                        </div>
+                                        <input type="url" class="form-control" name="certification.url"
+                                            placeholder="Enter your link" value="" />
+                                    </div>
+                                </div>
+                                <div class="col-md-9 mb-3">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">Summary</span>
+                                        </div>
+                                        <textarea rows="2" class="form-control" placeholder="Enter your summary"
+                                            name="certification.summary" aria-label="With textarea"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn add-item"><i class="fas fa-plus"></i></button>
+                            <button class="btn  remove-item"><i class="fas fa-minus"></i></button>
+                        </div>
+                        <div class="col">
+                            <hr>
+                        </div>
+
+                        <!-- certification div end  -->
+                        <!-- skills start  -->
+                        <div class="col-md-12 mb-3 info">
+                            <i class="fas fa-award"></i>
+                            <h3 class="ml-3 ">Skills</h3>
+                        </div>
+                        <div class="clone-box col-12  mb-3">
+
+                            <div class="row clone-item">
+                                <div class="col-md-6 mb-3">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-default">Skills*</span>
+                                        </div>
+                                        <input type="text" class="form-control" name="skill.name"
+                                            placeholder="Enter your skill name" value="" required />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-default">Level*</span>
+                                        </div>
+                                        <input type="range" class="form-control" name="skill.level" min="1" max="10"
+                                            value="1" required />
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <button class="btn btn-primary   add-item"><i class="fas fa-plus"></i></button>
+                            <button class="btn btn-danger  remove-item"><i class="fas fa-minus"></i></button>
+                        </div>
+                        <div class="col">
+                            <hr>
+                        </div>
+                        <!-- skills end  -->
+
+
+                        <!-- language start  -->
+                        <div class="col-md-12 mb-3 info">
+                            <i class="fas fa-earth-americas"></i>
+                            <h3 class="ml-3 ">Languages</h3>
+                        </div>
+                        <div class="clone-box col-12  mb-3">
+
+                            <div class="row clone-item  mb-3">
+                                <div class="col-md-6 mb-3">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+                                        </div>
+                                        <input type="text" class="form-control" name="language.name"
+                                            placeholder="Enter language name" value="" />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-default">Level</span>
+                                        </div>
+                                        <input type="range" class="form-control" name="language.level" min="1" max="10"
+                                            value="1" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="btn btn-primary  add-item"><i class="fas fa-plus"></i></button>
+                            <button class="btn btn-danger   remove-item"><i class="fas fa-minus"></i></button>
+
+                        </div>
+                        <div class="col">
+                            <hr>
+                        </div>
+                        <!-- language end  -->
+
+                        <!-- project area start  -->
+                        <div class="col-md-12 mb-3 info">
+                            <i class="fas fa-list-check"></i>
+                            <h3 class="ml-3 ">Projects</h3>
+                        </div>
+                        <div class="clone-box  col-12  mb-3">
+                            <div class="clone-item row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+                                        </div>
+                                        <input type="text" class="form-control" name="project.name"
+                                            placeholder="Enter your project name" aria-label="Sizing example input"
+                                            aria-describedby="inputGroup-sizing-default" />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"
+                                                id="inputGroup-sizing-default">Description</span>
+                                        </div>
+                                        <input type="text" class="form-control" name="project.description"
+                                            placeholder="Enter project descrption" value="" />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-default">Start
+                                                Date</span>
+                                        </div>
+                                        <input type="date" class="form-control" name="project.start_date"
+                                            placeholder="Enter your start date" value="" />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-default">End
+                                                Date</span>
+                                        </div>
+                                        <input type="date" class="form-control" name="project.end_date"
+                                            placeholder="Enter your end date" value="" />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-9 mb-3">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">Summary</span>
+                                        </div>
+                                        <textarea rows="2" class="form-control" placeholder="Enter your summary"
+                                            name="project.summary" aria-label="With textarea"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="btn btn-primary  add-item"><i class="fas fa-plus"></i></button>
+                            <button class="btn btn-danger  remove-item"><i class="fas fa-minus"></i></button>
+
+                        </div>
+
+                        <div class="col">
+                            <hr>
+                        </div>
+                        <!-- project area end  -->
+
+                        <!-- refrence area start  -->
+                        <div class="col-md-12 mb-3 info">
+                            <i class="fas fa-users"></i>
+                            <h3 class="ml-3 ">Refrences</h3>
+                        </div>
+                        <div class="clone-box  col-12  mb-3">
+                            <div class="clone-item row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+                                        </div>
+                                        <input type="text" class="form-control" name="refrence_name"
+                                            placeholder="Enter refrence name" aria-label="Sizing example input"
+                                            aria-describedby="inputGroup-sizing-default" />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"
+                                                id="inputGroup-sizing-default">Realtionship</span>
+                                        </div>
+                                        <input type="text" class="form-control" name="realtionship"
+                                            placeholder="Enter your position" value="" />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-default">Phone
+                                            </span>
+                                        </div>
+                                        <input type="tel" class="form-control" name="refrence_phone"
+                                            placeholder="Enter phone number" value="" />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
+                                        </div>
+                                        <input type="email" class="form-control" name="refrence_email"
+                                            placeholder="Enter email" value="" />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-9 mb-3">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">Summary</span>
+                                        </div>
+                                        <textarea rows="2" class="form-control" placeholder="Enter your summary"
+                                            name="refrence_summary" aria-label="With textarea"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                        <!-- refrence area end  -->
+                    </div>
+                    <button type="submit" class="btn add-item btn-submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/index.js"> </script>
+</body>
+
+</html>
